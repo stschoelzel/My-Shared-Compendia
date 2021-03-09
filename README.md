@@ -59,6 +59,3 @@ But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Com
 - Tested on: FoundryVTT 0.7.9
 - Module and System Incompatibilities: None known
 - Tested systems: DND 5e and Blades in the Dark
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/naftali)
-
