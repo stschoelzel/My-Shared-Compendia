@@ -69,5 +69,6 @@ For Example:
 There a no known Dependencies.
 But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Compendium Folders") is highly recomended.
 
+✨
 
 **I only intent to update this if it breaks. Anyway, delete line 67 to 70 in the module.json**
