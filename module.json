@@ -12,56 +12,48 @@
           "label": "My actors",
           "path": "packs/actors.db",
           "entity": "Actor",
-          "module": "My-Shared-Compendia"
         },
         {
           "name": "monsters",
           "label": "My Monsters",
           "path": "packs/monsters.db",
           "entity": "Actor",
-          "module": "My-Shared-Compendia"
         },
         {
           "name": "items",
           "label": "My Items",
           "path": "packs/items.db",
           "entity": "Item",
-          "module": "My-Shared-Compendia"
         },
         {
           "name": "scenes",
           "label": "My Scenes",
           "path": "packs/scenes.db",
           "entity": "Scene",
-          "module": "My-Shared-Compendia"
         },
         {
           "name": "JournalEntrys",
           "label": "My Journal Entrys",
           "path": "packs/journalentry.db",
           "entity": "JournalEntry",
-          "module": "My-Shared-Compendia"
         },
         {
           "name": "macros",
           "label": "My Macros",
           "path": "packs/macro.db",
           "entity": "Macro",
-          "module": "My-Shared-Compendia"
         },
         {
           "name": "rolltable",
           "label": "My Roll Tables",
           "path": "packs/rolltable.db",
           "entity": "RollTable",
-          "module": "My-Shared-Compendia"
         },
         {
           "name": "playlist",
           "label": "My Playlist",
           "path": "packs/playlist.db",
           "entity": "Playlist",
-          "module": "My-Shared-Compendia"
         }
       ]
   }
