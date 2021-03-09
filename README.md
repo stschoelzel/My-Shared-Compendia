@@ -1,5 +1,5 @@
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stschoelzel/My-Shared-Compendia?include_prereleases) 
-![GitHub All Releases](https://img.shields.io/github/downloads/stschoelzel/My-Shared-Compendia/total) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/naftali)
+![GitHub All Releases](https://img.shields.io/github/downloads/stschoelzel/My-Shared-Compendia/total) 
 
 # My Shared Compendia
 A Foundry VTT module to share Data between worlds via compendia as explained by u/solfolango on r/FoundryVTT; [here](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/ "here").
@@ -59,3 +59,5 @@ But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Com
 Tested on FoundryVTT 0.7.9
 Module and System Incompatibilities: None known
 Tested systems: DND 5e and Blades in the Dark
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/naftali)
