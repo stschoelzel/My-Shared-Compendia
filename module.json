@@ -11,56 +11,56 @@
         "name": "actors",
         "label": "My actors",
         "path": "packs/actors.db",
-	"module": "My-Shared-Compendia",
+      	"module": "My-Shared-Compendia",
         "entity": "Actor"
       },
       {
         "name": "monsters",
         "label": "My Monsters",
         "path": "packs/monsters.db",
-	"module": "My-Shared-Compendia",
+      	"module": "My-Shared-Compendia",
         "entity": "Actor"
       },
       {
         "name": "items",
         "label": "My Items",
         "path": "packs/items.db",
-	"module": "My-Shared-Compendia",
+      	"module": "My-Shared-Compendia",
         "entity": "Item"
       },
       {
         "name": "scenes",
         "label": "My Scenes",
         "path": "packs/scenes.db",
-	"module": "My-Shared-Compendia",
+      	"module": "My-Shared-Compendia",
         "entity": "Scene"
       },
       {
         "name": "JournalEntrys",
         "label": "My Journal Entrys",
         "path": "packs/journalentry.db",
-	"module": "My-Shared-Compendia",
+      	"module": "My-Shared-Compendia",
         "entity": "JournalEntry"
       },
       {
         "name": "macros",
         "label": "My Macros",
         "path": "packs/macro.db",
-	"module": "My-Shared-Compendia",
+      	"module": "My-Shared-Compendia",
         "entity": "Macro"
       },
       {
         "name": "rolltable",
         "label": "My Roll Tables",
         "path": "packs/rolltable.db",
-	"module": "My-Shared-Compendia",
+      	"module": "My-Shared-Compendia",
         "entity": "RollTable"
       },
       {
         "name": "playlist",
         "label": "My Playlist",
         "path": "packs/playlist.db",
-	"module": "My-Shared-Compendia",
+      	"module": "My-Shared-Compendia",
         "entity": "Playlist"
       }
     ],
