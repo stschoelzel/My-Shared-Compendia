@@ -48,6 +48,7 @@ For Example:
     		}
 
 
+
 ##Dependencies
 There a no known Dependencies.
 But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Compendium Folders") is highly recomended.
