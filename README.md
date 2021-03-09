@@ -14,7 +14,7 @@ Its not hard to do, but you can jumpstart your efforts and just use this module.
 69   "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/module.json"    
 70   
 
-🚨 Whenever there is an update, FoundryVTT will erase your compendia. 🚨
+🚨 Whenever there is an update,  👏 FoundryVTT  👏 will  👏 erase  👏 your  👏 compendia 👏.
 
 Therefore you want to prevent FoundryVTT to **ever** update this module.
  
