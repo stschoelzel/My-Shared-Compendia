@@ -7,12 +7,12 @@ Its not hard to do, but you can jumpstart your efforts and just use this module.
 ## Installation
 1.  Simply use the install module screen within the FoundryVTT setup
 2.  Open you local module.json
-3.  Delete line 67 to 70
+3.  Delete line 68 to 69
 
-67 // DELETE FROM HERE  
+67 
 68   "download": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/My-Shared-Compendia.zip",  
 69   "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/module.json"  
-70 // TO HERE  
+70 
 
 🚨 Whenever there is an update, FoundryVTT will erase your compendia. 🚨
 
@@ -48,18 +48,21 @@ For Example:
     			"name": "feats",
     			"label": "My Feats",
     			"path": "packs/feats.db",
+       "module": "My-Shared-Compendia",
     			"entity": "Item"
     		},
     		{
     			"name": "classes",
     			"label": "My Classes",
     			"path": "packs/classes.db",
+       "module": "My-Shared-Compendia",
     			"entity": "Item"
     		},
     		{
     			"name": "class-features",
     			"label": "My Class Features",
     			"path": "packs/class-features.db",
+       "module": "My-Shared-Compendia",
     			"entity": "Item"
     		}
 
