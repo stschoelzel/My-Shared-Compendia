@@ -1,0 +1,67 @@
+{   
+    "name": "My-Shared-Compendia",   
+    "title": "My Shared Compendia",   
+    "description": "Sharing data across worlds via Compendia as explained by u/solfolango on r/FoundryVTT",   
+    "author": "sts",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.5.0",
+    "compatibleCoreVersion":"0.5.5",
+    "packs": [
+        {
+          "name": "actors",
+          "label": "My actors",
+          "path": "packs/actors.db",
+          "entity": "Actor",
+          "module": "SharedData"
+        },
+        {
+          "name": "monsters",
+          "label": "My Monsters",
+          "path": "packs/monsters.db",
+          "entity": "Actor",
+          "module": "SharedData"
+        },
+        {
+          "name": "items",
+          "label": "My Items",
+          "path": "packs/items.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "scenes",
+          "label": "My Scenes",
+          "path": "packs/scenes.db",
+          "entity": "Scene",
+          "module": "SharedData"
+        },
+        {
+          "name": "JournalEntrys",
+          "label": "My Journal Entrys",
+          "path": "packs/journalentry.db",
+          "entity": "journalentry",
+          "module": "SharedData"
+        },
+        {
+          "name": "macros",
+          "label": "My Macros",
+          "path": "packs/macro.db",
+          "entity": "macro",
+          "module": "SharedData"
+        },
+        {
+          "name": "rolltable",
+          "label": "My Roll Tables",
+          "path": "packs/rolltable.db",
+          "entity": "rolltable",
+          "module": "SharedData"
+        },
+        {
+          "name": "playlist",
+          "label": "My Playlist",
+          "path": "packs/playlist.db",
+          "entity": "playlist",
+          "module": "SharedData"
+        }
+      ]
+  }
