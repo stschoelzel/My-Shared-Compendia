@@ -22,7 +22,7 @@ Alternatively, and better, modify this to your own local and custom module.
 
 *Remeber*  that you need to unlock your compendia to add to them.  
 
-Compendia are locked by default, because every change you manually do will be reverted on a update. Thats why you need to break the update function. 
+Compendia are locked by default, because every change you manually did will be reverted on an update. Thats why you need to break the update function. 
 
 
 ## Default Setup
