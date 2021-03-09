@@ -1,4 +1,5 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/naftali)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stschoelzel/My-Shared-Compendia?include_prereleases) 
+![GitHub All Releases](https://img.shields.io/github/downloads/stschoelzel/My-Shared-Compendia/total) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/naftali)
 
 # My Shared Compendia
 A Foundry VTT module to share Data between worlds via compendia as explained by u/solfolango on r/FoundryVTT; [here](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/ "here").
@@ -21,7 +22,8 @@ This module comes with 8 Default compendia. One for each Type of Entity that is 
 To change the default setup simple edit the module.json. All compendia are defined within the "packs" attribute beginning with line 10. 
 
 Theres a sample for each possible compendium Entity - so start there.
-Delete or change as you see fit.
+Delete or change as you see fit and/or [fork](https://github.com/user/repository/fork) for your convenience.
+
 
 ### Classes, Feats or Features
 There are no enteties for Classes, Feats, Features or anything more than the seven listed available in FoundryVTT. Best practices is to use the "[Item](https://foundryvtt.com/api/Item.html "Item")"  entity for those.
@@ -54,6 +56,6 @@ There a no known Dependencies.
 But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Compendium Folders") is highly recomended.
 
 ## Software Versions & Module and System Incompatibilities
-Foundry VTT: Tested on 0.7.9
+Tested on FoundryVTT 0.7.9
 Module and System Incompatibilities: None known
 Tested systems: DND 5e and Blades in the Dark
