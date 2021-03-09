@@ -6,7 +6,7 @@ Its not hard to do, but you can jumpstart your efforts and just use this module.
 
 ## Installation
 1.  Simply use the install module screen within the FoundryVTT setup
-2.  Open you local module.json
+2.  Open you local My-Shared-Compendia/module.json
 3.  Delete line 68 to 69
 
 67   
