@@ -56,8 +56,9 @@ There a no known Dependencies.
 But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Compendium Folders") is highly recomended.
 
 ## Software Versions & Module and System Incompatibilities
-Tested on FoundryVTT 0.7.9
-Module and System Incompatibilities: None known
-Tested systems: DND 5e and Blades in the Dark
+- Tested on: FoundryVTT 0.7.9
+- Module and System Incompatibilities: None known
+- Tested systems: DND 5e and Blades in the Dark
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/naftali)
+
