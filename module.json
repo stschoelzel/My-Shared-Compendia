@@ -56,4 +56,7 @@
         "entity": "Playlist"
       }
     ]
+  "url": "https://github.com/stschoelzel/My-Shared-Compendia",
+	"download": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/My-Shared-Compendia.zip",
+  "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/latest/module.json"
 }
