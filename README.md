@@ -16,9 +16,13 @@ Its not hard to do, but you can jumpstart your efforts and just use this module.
 
 🚨 Whenever there is an update, FoundryVTT will erase your compendia. 🚨
 
- Therefore you want to prevent FoundryVTT to **ever** update this module.
+Therefore you want to prevent FoundryVTT to **ever** update this module.
  
- Alternatively, and better, modify this to your own local and custom module. 
+Alternatively, and better, modify this to your own local and custom module. 
+
+*Remeber*  that you need to unlock your compendia to add to them.  
+
+Compendia are locked by default, because every change you manually do will be reverted on a update. Thats why you need to break the update function. 
 
 
 ## Default Setup
@@ -72,6 +76,6 @@ For Example:
 There a no known Dependencies.
 But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Compendium Folders") is highly recomended.
 
-✨
+❤
 
 **I only intent to update this if it breaks. Anyway, delete line 67 to 70 in the module.json**
