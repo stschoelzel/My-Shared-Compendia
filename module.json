@@ -11,49 +11,49 @@
           "name": "actors",
           "label": "My actors",
           "path": "packs/actors.db",
-          "entity": "Actor",
+          "entity": "Actor"
         },
         {
           "name": "monsters",
           "label": "My Monsters",
           "path": "packs/monsters.db",
-          "entity": "Actor",
+          "entity": "Actor"
         },
         {
           "name": "items",
           "label": "My Items",
           "path": "packs/items.db",
-          "entity": "Item",
+          "entity": "Item"
         },
         {
           "name": "scenes",
           "label": "My Scenes",
           "path": "packs/scenes.db",
-          "entity": "Scene",
+          "entity": "Scene"
         },
         {
           "name": "JournalEntrys",
           "label": "My Journal Entrys",
           "path": "packs/journalentry.db",
-          "entity": "JournalEntry",
+          "entity": "JournalEntry"
         },
         {
           "name": "macros",
           "label": "My Macros",
           "path": "packs/macro.db",
-          "entity": "Macro",
+          "entity": "Macro"
         },
         {
           "name": "rolltable",
           "label": "My Roll Tables",
           "path": "packs/rolltable.db",
-          "entity": "RollTable",
+          "entity": "RollTable"
         },
         {
           "name": "playlist",
           "label": "My Playlist",
           "path": "packs/playlist.db",
-          "entity": "Playlist",
+          "entity": "Playlist"
         }
       ]
   }
