@@ -3,10 +3,10 @@
 # My Shared Compendia
 A Foundry VTT module to share Data between worlds via compendia as explained by u/solfolango on r/FoundryVTT; [here](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/ "here").
 
-##Installation
+## Installation
 Simply use the install module screen within the FoundryVTT setup
 
-##Default Setup
+## Default Setup
 This module comes with 8 Default compendia. One for each Type of Entity that is [supported by FoundryVTT](https://foundryvtt.com/article/compendium/ "supported by FoundryVTT") and one extra "Actors".
 - My Actors ([Actor](https://foundryvtt.com/api/Actor.html "Actor"))
 - My Monsters ([Actor](https://foundryvtt.com/api/Actor.html "Actor"))
@@ -17,7 +17,7 @@ This module comes with 8 Default compendia. One for each Type of Entity that is 
 - My Roll Tables ([RollTable](https://foundryvtt.com/api/RollTable.html "RollTable"))
 - My Playlists ([Playlist](https://foundryvtt.com/api/Playlist.html "Playlist"))
 
-##Customize
+## Customize
 To change the default setup simple edit the module.json. All compendia are defined within the "packs" attribute beginning with line 10. 
 
 Theres a sample for each possible compendium Entity - so start there.
@@ -49,11 +49,11 @@ For Example:
 
 
 
-##Dependencies
+## Dependencies
 There a no known Dependencies.
 But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Compendium Folders") is highly recomended.
 
-##Software Versions & Module and System Incompatibilities
+## Software Versions & Module and System Incompatibilities
 Foundry VTT: Tested on 0.7.9
 Module and System Incompatibilities: None known
 Tested systems: DND 5e and Blades in the Dark
