@@ -1,4 +1,3 @@
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stschoelzel/My-Shared-Compendia?include_prereleases) 
 ![GitHub All Releases](https://img.shields.io/github/downloads/stschoelzel/My-Shared-Compendia/total) 
 
 # My Shared Compendia
