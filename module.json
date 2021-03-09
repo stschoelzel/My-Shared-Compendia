@@ -5,7 +5,7 @@
   "author": "sts",
   "version": "1.0.0",
   "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion":"3.2.1",
+  "compatibleCoreVersion":"0.7.9",
   "packs": [
       {
         "name": "actors",
@@ -64,9 +64,9 @@
         "entity": "Playlist"
       }
     ],
-  "url": "https://github.com/stschoelzel/My-Shared-Compendia",
-	// DELETE FROM HERE
+    
   "download": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/My-Shared-Compendia.zip",
-  "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/module.json"
-	// TO HERE
+  "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/module.json",
+
+  "url": "https://github.com/stschoelzel/My-Shared-Compendia"
 }
