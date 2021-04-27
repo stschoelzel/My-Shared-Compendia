@@ -5,7 +5,7 @@ Its not hard to do, but you can jumpstart your efforts and just use this module.
 ## Installation
 1.  Simply use the install module screen within the FoundryVTT setup
 
-The deletion of line 68/69 shouldn be unnecessary if you installed after 27.4.2021 thanks to [BadIdeasBureau](https://github.com/BadIdeasBureau "BadIdeasBureau")
+The deletion of line 68/69 shouldn be unnecessary if you installed after 27.4.2021 thanks to [BadIdeasBureau](https://github.com/BadIdeasBureau "BadIdeasBureau").
 But I strongly recommend you still read why the edit was necessary.
 
 ### Installation pre 27.4.2021
