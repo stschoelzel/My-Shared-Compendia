@@ -83,3 +83,5 @@ But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Com
 ❤
 
 **I only intent to update this if it breaks. Anyway, delete line 67 to 70 in the module.json**
+[![PyPI download total](https://img.shields.io/pypi/dt/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
