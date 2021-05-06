@@ -24,7 +24,9 @@ Therefore you want to prevent FoundryVTT to **ever** update this module.
  
 Alternatively, and better, modify this to your own local and custom module. 
 
-*Remeber*  that you need to unlock your compendia to add to them.  
+### Unlock your Compendia!
+
+*Remeber*   that you need to unlock your compendia to add to them.  
 
 Compendia are locked by default, because every change you manually did will be reverted on an update. Thats why you need to break the update function. 
 
