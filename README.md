@@ -1,89 +1,94 @@
 # My Shared Compendia
-A Foundry VTT module to share Data between worlds via compendia as explained by u/solfolango on r/FoundryVTT; [here](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/ "here").
-Its not hard to do, but you can jumpstart your efforts and just use this module.
+
+A Foundry VTT module to share Data between worlds via compendia as explained by u/solfolango on
+r/FoundryVTT; [here](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/ "here").
+It's not hard to do, but you can jumpstart your efforts by using this module.
 
 ## Installation
-1.  Simply use the install module screen within the FoundryVTT setup
 
-The deletion of line 68/69 shouldn be unnecessary if you installed after 27.4.2021 thanks to [BadIdeasBureau](https://github.com/BadIdeasBureau "BadIdeasBureau").<br/><br/>
-But I strongly recommend you still read why the edit was necessary.
+1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
+2. Click the `Install Module` button.
+3. Paste the Module's [Manifest URL](https://github.com/npiani/My-Shared-Compendia/releases/download/1.0.0/module.json)
+   into the `Manifest URL` field.
+4. Click the `Install` button.
 
-### Installation pre 27.4.2021
+| WARNING: If you update this module, FoundryVTT will erase your compendia. |
+|---------------------------------------------------------------------------|
 
-1.  Simply use the install module screen within the FoundryVTT setup
-2.  Open you local My-Shared-Compendia/module.json
-3.  Delete line 68 to 69
+### Preventing Module Update
 
-68   "download": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/My-Shared-Compendia.zip",    
-69   "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/module.json"    
-
-
-🚨 Whenever there is an update,  👏 FoundryVTT  👏 will  👏 erase  👏 your  👏 compendia 👏.
-
-Therefore you want to prevent FoundryVTT to **ever** update this module.
- 
-Alternatively, and better, modify this to your own local and custom module. 
+* Option 1 (easier): Locking your module:
+    1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
+    2. Find this module (My Shared Compendia) in the list, and click the padlock icon.
+        * Unlocked:  
+          ![unlocked-module](resources/images/unlocked-module.webp)
+        * Locked:  
+          ![locked-module](resources/images/locked-module.webp)
+* Option 2: Updating your `module.json` file:
+    1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia`) and update the `module.json` file.
+    2. Remove lines 68-69 (`download` and `manifest`) and save the file.
+    3. Restart Foundry to reload the module.
 
 ### Unlock your Compendia!
 
-*Remeber*   that you need to unlock your compendia to add to them.  
-
-Compendia are locked by default, because every change you manually did will be reverted on an update. Thats why you need to break the update function. 
-
+*Remember* that you need to unlock your compendia to be able to add things to them.
 
 ## Default Setup
-This module comes with 8 Default compendia. One for each Type of Entity that is [supported by FoundryVTT](https://foundryvtt.com/article/compendium/ "supported by FoundryVTT") and one extra "Actors".
-- My Actors ([Actor](https://foundryvtt.com/api/Actor.html "Actor"))
-- My Monsters ([Actor](https://foundryvtt.com/api/Actor.html "Actor"))
-- My Items ([Item](https://foundryvtt.com/api/Item.html "Item"))
-- My Scenes ([Scene](https://foundryvtt.com/api/Scene.html "Scene"))
-- My Journal Entrys ([JournalEntry](https://foundryvtt.com/api/JournalEntry.html "JournalEntry"))
-- My Macros ([Macro](https://foundryvtt.com/api/Macro.html "Macro"))
-- My Roll Tables ([RollTable](https://foundryvtt.com/api/RollTable.html "RollTable"))
-- My Playlists ([Playlist](https://foundryvtt.com/api/Playlist.html "Playlist"))
+
+This module comes with 8 Default compendia:
+
+- `Actors (shared)` ([Actor](https://foundryvtt.com/api/Actor.html "Actor"))
+- `Monsters (shared)` ([Actor](https://foundryvtt.com/api/Actor.html "Actor"))
+- `Items (shared)` ([Item](https://foundryvtt.com/api/Item.html "Item"))
+- `Scenes (shared)` ([Scene](https://foundryvtt.com/api/Scene.html "Scene"))
+- `Journal Entries (shared)` ([JournalEntry](https://foundryvtt.com/api/JournalEntry.html "JournalEntry"))
+- `Macros (shared)` ([Macro](https://foundryvtt.com/api/Macro.html "Macro"))
+- `Roll Tables (shared)` ([RollTable](https://foundryvtt.com/api/RollTable.html "RollTable"))
+- `Playlists (shared)` ([Playlist](https://foundryvtt.com/api/Playlist.html "Playlist"))
 
 ## Customize
-To change the default setup simple edit the module.json. All compendia are defined within the "packs" attribute beginning with line 10. 
 
-Theres a sample for each possible compendium Entity - so start there.
-Delete or change as you see fit and/or [fork](https://github.com/user/repository/fork) for your convenience.
+To change the default setup, edit the `module.json` file. All compendia are defined within the "packs" attribute beginning with line 10.
 
+There's a sample for each compendium Type - so start there. Delete or change as you see fit and/or [fork](https://github.com/npiani/My-Shared-Compendia/fork) for your convenience.
 
 ### Classes, Feats or Features
-There are no enteties for Classes, Feats, Features or anything more than the seven listed available in FoundryVTT. Best practices is to use the "[Item](https://foundryvtt.com/api/Item.html "Item")"  entity for those.
 
-For Example:
+There are no compendium Types for Classes, Feats, Features in Foundry, so the `Item` type is generally used for these. For Example:
 
-    		{
-    			"name": "feats",
-    			"label": "My Feats",
-    			"path": "packs/feats.db",
-       "module": "My-Shared-Compendia",
-    			"entity": "Item"
-    		},
-    		{
-    			"name": "classes",
-    			"label": "My Classes",
-    			"path": "packs/classes.db",
-       "module": "My-Shared-Compendia",
-    			"entity": "Item"
-    		},
-    		{
-    			"name": "class-features",
-    			"label": "My Class Features",
-    			"path": "packs/class-features.db",
-       "module": "My-Shared-Compendia",
-    			"entity": "Item"
-    		}
-
-
+```json
+{
+  "packs": [
+    {
+      "name": "feats",
+      "label": " Feats (shared)",
+      "path": "packs/feats.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "classes",
+      "label": "Classes (shared)",
+      "path": "packs/classes.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "class-features",
+      "label": "Class Features (shared)",
+      "path": "packs/class-features.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    }
+  ]
+}
+```
 
 ## Dependencies
-There a no known Dependencies.
-But, [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Compendium Folders") is highly recomended.
 
-❤
+There a no known dependencies, but using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders "Compendium Folders") is highly recommended.
 
-**I only intent to update this if it breaks. Anyway, delete line 67 to 70 in the module.json**
+# Credits
+Credit goes to [stschoelzel](https://github.com/stschoelzel) for the [initial module](https://github.com/stschoelzel/My-Shared-Compendia). I forked it, cleaned it up, and made it more suited to my own needs.
 
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/stschoelzel/My-Shared-Compendia/total">
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/npiani/My-Shared-Compendia/total">
