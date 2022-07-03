@@ -10,7 +10,7 @@
       "name": "Napoleone Piani"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minimumCoreVersion": "0.5.0",
   "compatibleCoreVersion": "9",
   "packs": [
@@ -36,6 +36,34 @@
       "type": "Item"
     },
     {
+      "name": "spells",
+      "label": "Spells (shared)",
+      "path": "packs/spells.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "classes",
+      "label": "Classes (shared)",
+      "path": "packs/classes.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "subclasses",
+      "label": "Subclasses (shared)",
+      "path": "packs/subclasses.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "feats",
+      "label": "Feats (shared)",
+      "path": "packs/feats.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
       "name": "scenes",
       "label": "Scenes (shared)",
       "path": "packs/scenes.db",
@@ -43,7 +71,7 @@
       "type": "Scene"
     },
     {
-      "name": "JournalEntrys",
+      "name": "JournalEntries",
       "label": "Journal Entries (shared)",
       "path": "packs/journalentry.db",
       "module": "my-shared-compendia",
@@ -71,7 +99,7 @@
       "type": "Playlist"
     }
   ],
-  "download": "https://github.com/npiani/My-Shared-Compendia/releases/download/1.0.0/My-Shared-Compendia.zip",
-  "manifest": "https://github.com/npiani/My-Shared-Compendia/releases/download/1.0.0/module.json",
+  "download": "https://github.com/npiani/My-Shared-Compendia/archive/v1.1.0.zip",
+  "manifest": "https://github.com/npiani/My-Shared-Compendia/releases/latest/download/module.json",
   "url": "https://github.com/npiani/My-Shared-Compendia"
 }
