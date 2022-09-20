@@ -1,14 +1,14 @@
 {   
-  "name": "My-Shared-Compendia",   
+  "id": "My-Shared-Compendia",   
   "title": "My Shared Compendia",   
   "description": "Sharing data across worlds via Compendia as explained by u/solfolango on r/FoundryVTT",   
-  "author": "sts",
+  "authors": [{"name": "sts",}]
   "version": "1.0.0",
-  "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion":"3.2.1",
+  "compatibility": {"minimum":9,"verified":10},
   "packs": [
       {
         "name": "actors",
+        "system":"dnd5e",
         "label": "My actors",
         "path": "packs/actors.db",
       	"module": "My-Shared-Compendia",
@@ -16,6 +16,7 @@
       },
       {
         "name": "monsters",
+        "system":"dnd5e",
         "label": "My Monsters",
         "path": "packs/monsters.db",
       	"module": "My-Shared-Compendia",
@@ -23,6 +24,7 @@
       },
       {
         "name": "items",
+        "system":"dnd5e",
         "label": "My Items",
         "path": "packs/items.db",
       	"module": "My-Shared-Compendia",
@@ -30,6 +32,7 @@
       },
       {
         "name": "scenes",
+        "system":"dnd5e",
         "label": "My Scenes",
         "path": "packs/scenes.db",
       	"module": "My-Shared-Compendia",
@@ -37,6 +40,7 @@
       },
       {
         "name": "JournalEntrys",
+        "system":"dnd5e",
         "label": "My Journal Entrys",
         "path": "packs/journalentry.db",
       	"module": "My-Shared-Compendia",
@@ -44,6 +48,7 @@
       },
       {
         "name": "macros",
+        "system":"dnd5e",
         "label": "My Macros",
         "path": "packs/macro.db",
       	"module": "My-Shared-Compendia",
@@ -51,6 +56,7 @@
       },
       {
         "name": "rolltable",
+        "system":"dnd5e",
         "label": "My Roll Tables",
         "path": "packs/rolltable.db",
       	"module": "My-Shared-Compendia",
@@ -58,6 +64,7 @@
       },
       {
         "name": "playlist",
+        "system":"dnd5e",
         "label": "My Playlist",
         "path": "packs/playlist.db",
       	"module": "My-Shared-Compendia",
