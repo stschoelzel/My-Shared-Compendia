@@ -59,6 +59,7 @@ For example:
   "packs": [
     {
       "name": "monsters",
+      "system": "dnd5e",
       "label": "Monsters",
       "path": "packs/monsters.db",
       "module": "my-shared-compendia",
@@ -66,6 +67,7 @@ For example:
     },
     {
       "name": "my-custom-items",
+      "system": "dnd5e",
       "label": "My Custom Items",
       "path": "packs/items.db",
       "module": "my-shared-compendia",
