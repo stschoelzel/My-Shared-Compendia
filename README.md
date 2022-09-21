@@ -50,7 +50,7 @@ This module comes with 12 Default compendia:
 
 ## Customize
 
-To change the default setup, edit the `module.json` file. All compendia are defined within the "packs" attribute beginning with line 10.
+To change the default setup, edit the `module.json` file. All compendia are defined within the "packs" attribute beginning with line 18.
 
 For example:
 
