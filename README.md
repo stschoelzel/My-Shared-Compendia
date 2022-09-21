@@ -81,8 +81,8 @@ Note: There are no compendium Types for Classes, Feats, and Features in Foundry,
 
 ## Dependencies
 
-[DnD5e Game System](https://github.com/foundryvtt/dnd5e) is required: The Game System adds some SRD Compendia.
-Using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders) is highly recommended.
+- [DnD5e Game System](https://github.com/foundryvtt/dnd5e) is required: The Game System adds some SRD Compendia.
+- Using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders) is highly recommended.
 
 # Credits
 
