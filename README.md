@@ -11,25 +11,25 @@ A Foundry VTT module to share Data between worlds via compendia.
 4. Click the `Install` button.
 
 | WARNING: If you update this module, FoundryVTT will erase your compendia. |
-|---------------------------------------------------------------------------|
+| ------------------------------------------------------------------------- |
 
 ### Preventing Module Update
 
-* Option 1 (easier): Locking your module:
-    1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
-    2. Find this module (My Shared Compendia) in the list, and click the padlock icon.
-        * Unlocked:  
-          ![unlocked-module](resources/images/unlocked-module.webp)
-        * Locked:  
-          ![locked-module](resources/images/locked-module.webp)
-* Option 2: Updating your `module.json` file:
-    1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia`) and update the `module.json` file.
-    2. Remove lines 68-69 (`download` and `manifest`) and save the file.
-    3. Restart Foundry to reload the module.
+- Option 1 (easier): Locking your module:
+  1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
+  2. Find this module (My Shared Compendia) in the list, and click the padlock icon.
+     - Unlocked:  
+       ![unlocked-module](resources/images/unlocked-module.webp)
+     - Locked:  
+       ![locked-module](resources/images/locked-module.webp)
+- Option 2: Updating your `module.json` file:
+  1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia`) and update the `module.json` file.
+  2. Remove lines 68-69 (`download` and `manifest`) and save the file.
+  3. Restart Foundry to reload the module.
 
 ### Unlock your Compendia!
 
-*Remember* that you need to unlock your compendia to be able to add things to them.
+_Remember_ that you need to unlock your compendia to be able to add things to them.
 
 ## Default Setup
 
@@ -52,7 +52,7 @@ This module comes with 12 Default compendia:
 
 To change the default setup, edit the `module.json` file. All compendia are defined within the "packs" attribute beginning with line 10.
 
-For example:  
+For example:
 
 ```json
 {
@@ -82,5 +82,6 @@ Note: There are no compendium Types for Classes, Feats, and Features in Foundry,
 There are no known dependencies, but using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders) is highly recommended.
 
 # Credits
-Credit goes to [stschoelzel](https://github.com/stschoelzel) for the [initial module](https://github.com/stschoelzel/My-Shared-Compendia). I forked it, cleaned it up, and made it more suited to my own needs. Process explained by [/u/solfolango](https://www.reddit.com/u/solfolango) on
-[/r/FoundryVTT](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/).
+
+Credit for the cleaner version goes to [npiani](https://github.com/npiani).
+Process explained by [/u/solfolango](https://www.reddit.com/u/solfolango) on [/r/FoundryVTT](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/).
