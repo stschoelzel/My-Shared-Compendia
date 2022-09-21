@@ -1,72 +1,105 @@
-{   
-  "name": "My-Shared-Compendia",   
-  "title": "My Shared Compendia",   
-  "description": "Sharing data across worlds via Compendia as explained by u/solfolango on r/FoundryVTT",   
-  "author": "sts",
-  "version": "1.0.0",
+{
+  "name": "my-shared-compendia",
+  "title": "My Shared Compendia",
+  "description": "Creates default set of compendia that are shared across Foundry VTT worlds hosted on the same server.",
+  "authors": [
+    {
+      "name": "sts"
+    },
+    {
+      "name": "Napoleone Piani"
+    }
+  ],
+  "version": "1.1.0",
   "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion":"3.2.1",
+  "compatibleCoreVersion": "9",
   "packs": [
-      {
-        "name": "actors",
-        "label": "My actors",
-        "path": "packs/actors.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Actor"
-      },
-      {
-        "name": "monsters",
-        "label": "My Monsters",
-        "path": "packs/monsters.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Actor"
-      },
-      {
-        "name": "items",
-        "label": "My Items",
-        "path": "packs/items.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Item"
-      },
-      {
-        "name": "scenes",
-        "label": "My Scenes",
-        "path": "packs/scenes.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Scene"
-      },
-      {
-        "name": "JournalEntrys",
-        "label": "My Journal Entrys",
-        "path": "packs/journalentry.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "JournalEntry"
-      },
-      {
-        "name": "macros",
-        "label": "My Macros",
-        "path": "packs/macro.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Macro"
-      },
-      {
-        "name": "rolltable",
-        "label": "My Roll Tables",
-        "path": "packs/rolltable.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "RollTable"
-      },
-      {
-        "name": "playlist",
-        "label": "My Playlist",
-        "path": "packs/playlist.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Playlist"
-      }
-    ],
-    
-  "download": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/My-Shared-Compendia.zip",
-  "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/module.json",
-
-  "url": "https://github.com/stschoelzel/My-Shared-Compendia"
+    {
+      "name": "actors",
+      "label": "Actors (shared)",
+      "path": "packs/actors.db",
+      "module": "my-shared-compendia",
+      "type": "Actor"
+    },
+    {
+      "name": "monsters",
+      "label": "Monsters (shared)",
+      "path": "packs/monsters.db",
+      "module": "my-shared-compendia",
+      "type": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "Items (shared)",
+      "path": "packs/items.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "spells",
+      "label": "Spells (shared)",
+      "path": "packs/spells.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "classes",
+      "label": "Classes (shared)",
+      "path": "packs/classes.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "subclasses",
+      "label": "Subclasses (shared)",
+      "path": "packs/subclasses.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "feats",
+      "label": "Feats (shared)",
+      "path": "packs/feats.db",
+      "module": "my-shared-compendia",
+      "type": "Item"
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes (shared)",
+      "path": "packs/scenes.db",
+      "module": "my-shared-compendia",
+      "type": "Scene"
+    },
+    {
+      "name": "JournalEntries",
+      "label": "Journal Entries (shared)",
+      "path": "packs/journalentry.db",
+      "module": "my-shared-compendia",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "Macros (shared)",
+      "path": "packs/macro.db",
+      "module": "my-shared-compendia",
+      "type": "Macro"
+    },
+    {
+      "name": "rolltable",
+      "label": "Roll Tables (shared)",
+      "path": "packs/rolltable.db",
+      "module": "my-shared-compendia",
+      "type": "RollTable"
+    },
+    {
+      "name": "playlist",
+      "label": "Playlist (shared)",
+      "path": "packs/playlist.db",
+      "module": "my-shared-compendia",
+      "type": "Playlist"
+    }
+  ],
+  "download": "https://github.com/npiani/My-Shared-Compendia/archive/v1.1.0.zip",
+  "manifest": "https://github.com/npiani/My-Shared-Compendia/releases/latest/download/module.json",
+  "url": "https://github.com/npiani/My-Shared-Compendia"
 }
