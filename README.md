@@ -61,7 +61,7 @@ For example:
       "name": "monsters",
       "system": "dnd5e",
       "label": "Monsters",
-      "path": "packs/monsters.db",
+      "path": "./packs/monsters.db",
       "module": "my-shared-compendia",
       "type": "Actor"
     },
@@ -69,7 +69,7 @@ For example:
       "name": "my-custom-items",
       "system": "dnd5e",
       "label": "My Custom Items",
-      "path": "packs/items.db",
+      "path": "./packs/items.db",
       "module": "my-shared-compendia",
       "type": "Item"
     }
@@ -81,7 +81,8 @@ Note: There are no compendium Types for Classes, Feats, and Features in Foundry,
 
 ## Dependencies
 
-There are no known dependencies, but using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders) is highly recommended.
+[DnD5e Game System](https://github.com/foundryvtt/dnd5e) is required: The Game System adds some SRD Compendia.
+Using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders) is highly recommended.
 
 # Credits
 
