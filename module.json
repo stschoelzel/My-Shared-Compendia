@@ -1,5 +1,5 @@
 {
-  "name": "my-shared-compendia",
+  "id": "my-shared-compendia",
   "title": "My Shared Compendia",
   "description": "Creates default set of compendia that are shared across Foundry VTT worlds hosted on the same server.",
   "authors": [
@@ -11,19 +11,16 @@
     }
   ],
   "version": "1.2.0",
-  "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion": "10",
   "compatibility": {
-    "minimum": "0.5.0",
-    "verified": "10",
-    "maximum": "10"
+    "minimum": "9",
+    "verified": "10"
   },
   "packs": [
     {
       "name": "actors",
       "system": "dnd5e",
       "label": "Actors (shared)",
-      "path": "packs/actors.db",
+      "path": "./packs/actors.db",
       "module": "my-shared-compendia",
       "type": "Actor"
     },
@@ -31,7 +28,7 @@
       "name": "monsters",
       "system": "dnd5e",
       "label": "Monsters (shared)",
-      "path": "packs/monsters.db",
+      "path": "./packs/monsters.db",
       "module": "my-shared-compendia",
       "type": "Actor"
     },
@@ -39,7 +36,7 @@
       "name": "items",
       "system": "dnd5e",
       "label": "Items (shared)",
-      "path": "packs/items.db",
+      "path": "./packs/items.db",
       "module": "my-shared-compendia",
       "type": "Item"
     },
@@ -47,7 +44,7 @@
       "name": "spells",
       "system": "dnd5e",
       "label": "Spells (shared)",
-      "path": "packs/spells.db",
+      "path": "./packs/spells.db",
       "module": "my-shared-compendia",
       "type": "Item"
     },
@@ -55,7 +52,7 @@
       "name": "classes",
       "system": "dnd5e",
       "label": "Classes (shared)",
-      "path": "packs/classes.db",
+      "path": "./packs/classes.db",
       "module": "my-shared-compendia",
       "type": "Item"
     },
@@ -63,7 +60,7 @@
       "name": "subclasses",
       "system": "dnd5e",
       "label": "Subclasses (shared)",
-      "path": "packs/subclasses.db",
+      "path": "./packs/subclasses.db",
       "module": "my-shared-compendia",
       "type": "Item"
     },
@@ -71,7 +68,7 @@
       "name": "feats",
       "system": "dnd5e",
       "label": "Feats (shared)",
-      "path": "packs/feats.db",
+      "path": "./packs/feats.db",
       "module": "my-shared-compendia",
       "type": "Item"
     },
@@ -79,7 +76,7 @@
       "name": "scenes",
       "system": "dnd5e",
       "label": "Scenes (shared)",
-      "path": "packs/scenes.db",
+      "path": "./packs/scenes.db",
       "module": "my-shared-compendia",
       "type": "Scene"
     },
@@ -87,7 +84,7 @@
       "name": "JournalEntries",
       "system": "dnd5e",
       "label": "Journal Entries (shared)",
-      "path": "packs/journalentry.db",
+      "path": "./packs/journalentry.db",
       "module": "my-shared-compendia",
       "type": "JournalEntry"
     },
@@ -95,15 +92,15 @@
       "name": "macros",
       "system": "dnd5e",
       "label": "Macros (shared)",
-      "path": "packs/macro.db",
+      "path": "./packs/macro.db",
       "module": "my-shared-compendia",
       "type": "Macro"
     },
     {
-      "name": "rolltable",
+      "name": "rolltables",
       "system": "dnd5e",
       "label": "Roll Tables (shared)",
-      "path": "packs/rolltable.db",
+      "path": "./packs/rolltables.db",
       "module": "my-shared-compendia",
       "type": "RollTable"
     },
@@ -111,7 +108,7 @@
       "name": "playlist",
       "system": "dnd5e",
       "label": "Playlist (shared)",
-      "path": "packs/playlist.db",
+      "path": "./packs/playlist.db",
       "module": "my-shared-compendia",
       "type": "Playlist"
     }
