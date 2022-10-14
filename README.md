@@ -33,20 +33,21 @@ _Remember_ that you need to unlock your compendia to be able to add things to th
 
 ## Default Setup
 
-This module comes with 12 Default compendia:
+This module comes with 13 Default compendia:
 
-- `Actors (shared)` ([Actor](https://foundryvtt.com/api/Actor.html))
-- `Classes (shared)` ([Item](https://foundryvtt.com/api/Item.html))
-- `Feats (shared)` ([Item](https://foundryvtt.com/api/Item.html))
-- `Items (shared)` ([Item](https://foundryvtt.com/api/Item.html))
-- `Journal Entries (shared)` ([JournalEntry](https://foundryvtt.com/api/JournalEntry.html))
-- `Macros (shared)` ([Macro](https://foundryvtt.com/api/Macro.html))
-- `Monsters (shared)` ([Actor](https://foundryvtt.com/api/Actor.html))
-- `Playlists (shared)` ([Playlist](https://foundryvtt.com/api/Playlist.html))
-- `Roll Tables (shared)` ([RollTable](https://foundryvtt.com/api/RollTable.html))
-- `Scenes (shared)` ([Scene](https://foundryvtt.com/api/Scene.html))
-- `Spells (shared)` ([Item](https://foundryvtt.com/api/Item.html))
-- `Subclasses (shared)` ([Item](https://foundryvtt.com/api/Item.html))
+- `Actors (shared)` ([Actor](https://foundryvtt.com/article/actors/))
+- `Adventures (shared)` (Adventures - documentation pending)
+- `Classes (shared)` ([Item](https://foundryvtt.com/article/items/))
+- `Feats (shared)` ([Item](https://foundryvtt.com/article/items/))
+- `Items (shared)` ([Item](https://foundryvtt.com/article/items/))
+- `Journal Entries (shared)` ([JournalEntry](https://foundryvtt.com/article/journal/))
+- `Macros (shared)` ([Macro](https://foundryvtt.com/article/macros/))
+- `Monsters (shared)` ([Actor](https://foundryvtt.com/article/actors/))
+- `Playlists (shared)` ([Playlist](https://foundryvtt.com/article/playlists/))
+- `Roll Tables (shared)` ([RollTable](https://foundryvtt.com/article/roll-tables/))
+- `Scenes (shared)` ([Scene](https://foundryvtt.com/article/scenes/))
+- `Spells (shared)` ([Item](https://foundryvtt.com/article/items/))
+- `Subclasses (shared)` ([Item](https://foundryvtt.com/article/items/))
 
 ## Customize
 
