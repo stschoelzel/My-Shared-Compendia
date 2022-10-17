@@ -10,12 +10,20 @@
       "name": "Napoleone Piani"
     }
   ],
-  "version": "1.2.0",
+  "version": "1.3.0",
   "compatibility": {
-    "minimum": "9",
+    "minimum": "10",
     "verified": "10"
   },
   "packs": [
+    {
+      "name": "adventures",
+      "system": "dnd5e",
+      "label": "Adventures (shared)",
+      "path": "./packs/adventures.db",
+      "module": "my-shared-compendia",
+      "type": "Adventure"
+    },
     {
       "name": "actors",
       "system": "dnd5e",
@@ -113,7 +121,7 @@
       "type": "Playlist"
     }
   ],
-  "download": "https://github.com/stschoelzel/My-Shared-Compendia/archive/v1.2.0.zip",
+  "download": "https://github.com/stschoelzel/My-Shared-Compendia/archive/v1.3.0.zip",
   "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/latest/download/module.json",
   "url": "https://github.com/stschoelzel/My-Shared-Compendia"
 }
