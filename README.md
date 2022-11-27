@@ -36,7 +36,7 @@ _Remember_ that you need to unlock your compendia to be able to add things to th
 This module comes with 13 Default compendia:
 
 - `Actors (shared)` ([Actor](https://foundryvtt.com/article/actors/))
-- `Adventures (shared)` (Adventures - documentation pending)
+- `Adventures (shared)` ([Adventures](https://foundryvtt.com/article/adventure/))
 - `Classes (shared)` ([Item](https://foundryvtt.com/article/items/))
 - `Feats (shared)` ([Item](https://foundryvtt.com/article/items/))
 - `Items (shared)` ([Item](https://foundryvtt.com/article/items/))
