@@ -1,127 +1,124 @@
 {
-  "id": "my-shared-compendia",
-  "title": "My Shared Compendia",
+  "id": "my-shared-compendia-pf2e",
+  "title": "My Shared Compendia PF2e",
   "description": "Creates default set of compendia that are shared across Foundry VTT worlds hosted on the same server.",
   "authors": [
     {
-      "name": "Stephan Schölzel"
-    },
-    {
-      "name": "Napoleone Piani"
+      "name": "HonzoNebro"
     }
   ],
-  "version": "1.3.0",
+  "version": "11.0.0",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "11",
+    "verified": "11"
   },
   "packs": [
     {
       "name": "adventures",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Adventures (shared)",
       "path": "./packs/adventures.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Adventure"
     },
     {
       "name": "actors",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Actors (shared)",
       "path": "./packs/actors.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Actor"
     },
     {
       "name": "monsters",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Monsters (shared)",
       "path": "./packs/monsters.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Actor"
     },
     {
       "name": "items",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Items (shared)",
       "path": "./packs/items.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Item"
     },
     {
       "name": "spells",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Spells (shared)",
       "path": "./packs/spells.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Item"
     },
     {
       "name": "classes",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Classes (shared)",
       "path": "./packs/classes.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Item"
     },
     {
       "name": "subclasses",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Subclasses (shared)",
       "path": "./packs/subclasses.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Item"
     },
     {
       "name": "feats",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Feats (shared)",
       "path": "./packs/feats.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Item"
     },
     {
       "name": "scenes",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Scenes (shared)",
       "path": "./packs/scenes.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Scene"
     },
     {
       "name": "JournalEntries",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Journal Entries (shared)",
       "path": "./packs/journalentry.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "JournalEntry"
     },
     {
       "name": "macros",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Macros (shared)",
       "path": "./packs/macro.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Macro"
     },
     {
       "name": "rolltables",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Roll Tables (shared)",
       "path": "./packs/rolltables.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "RollTable"
     },
     {
       "name": "playlist",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Playlist (shared)",
       "path": "./packs/playlist.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Playlist"
     }
   ],
   "download": "https://github.com/stschoelzel/My-Shared-Compendia/archive/v1.3.0.zip",
   "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/latest/download/module.json",
-  "url": "https://github.com/stschoelzel/My-Shared-Compendia"
+  "url": "https://github.com/HonzoNebro/My-Shared-Compendia-PF2e"
 }

@@ -1,6 +1,6 @@
 # My Shared Compendia
 
-A Foundry VTT module to share Data between worlds via compendia.
+A Foundry VTT module to share Data between worlds via compendia for Pathfinder 2e worlds.
 
 ## Installation
 
@@ -23,7 +23,7 @@ A Foundry VTT module to share Data between worlds via compendia.
      - Locked:  
        ![locked-module](resources/images/locked-module.webp)
 - Option 2: Updating your `module.json` file:
-  1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia`) and update the `module.json` file.
+  1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia PF2e`) and update the `module.json` file.
   2. Remove lines 68-69 (`download` and `manifest`) and save the file.
   3. Restart Foundry to reload the module.
 
@@ -36,7 +36,7 @@ _Remember_ that you need to unlock your compendia to be able to add things to th
 This module comes with 13 Default compendia:
 
 - `Actors (shared)` ([Actor](https://foundryvtt.com/article/actors/))
-- `Adventures (shared)` (Adventures - documentation pending)
+- `Adventures (shared)` ([Adventures] (https://foundryvtt.com/article/adventure/))
 - `Classes (shared)` ([Item](https://foundryvtt.com/article/items/))
 - `Feats (shared)` ([Item](https://foundryvtt.com/article/items/))
 - `Items (shared)` ([Item](https://foundryvtt.com/article/items/))
@@ -60,18 +60,18 @@ For example:
   "packs": [
     {
       "name": "monsters",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "Monsters",
       "path": "./packs/monsters.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Actor"
     },
     {
       "name": "my-custom-items",
-      "system": "dnd5e",
+      "system": "pf2e",
       "label": "My Custom Items",
       "path": "./packs/items.db",
-      "module": "my-shared-compendia",
+      "module": "my-shared-compendia-pf2e",
       "type": "Item"
     }
   ]
@@ -82,10 +82,11 @@ Note: There are no compendium Types for Classes, Feats, and Features in Foundry,
 
 ## Dependencies
 
-- [DnD5e Game System](https://github.com/foundryvtt/dnd5e) is required: The Game System adds some SRD Compendia.
+- [Pathfinder 2nd Edition](https://github.com/foundryvtt/pf2e) is required: The Game System adds some SRD Compendia.
 - Using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders) is highly recommended.
 
 # Credits
 
 Credit for the cleaner version goes to [npiani](https://github.com/npiani).
 Process explained by [/u/solfolango](https://www.reddit.com/u/solfolango) on [/r/FoundryVTT](https://www.reddit.com/r/FoundryVTT/comments/fvw3c7/how_to_create_a_tiny_module_for_shared_content/).
+And all the authors of the My Shared Compendia module that this one is but a fork of (https://github.com/stschoelzel/My-Shared-Compendia)
