@@ -13,7 +13,7 @@
   "version": "1.3.0",
   "compatibility": {
     "minimum": "10",
-    "verified": "10"
+    "verified": "13"
   },
   "packs": [
     {
@@ -89,7 +89,7 @@
       "type": "Scene"
     },
     {
-      "name": "JournalEntries",
+      "name": "journalentries",
       "system": "dnd5e",
       "label": "Journal Entries (shared)",
       "path": "./packs/journalentry.db",
